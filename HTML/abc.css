@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.lamda {
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.alpha {
+    color: white;
+    margin-top: 30px;
+    padding-left: 200px;
+}
+
+div>a {
+    align-items: start;
+    margin: 100px;
+
+}
+
+a:hover {
+    color: rgb(224, 69, 69);
+    text-decoration: underline;
+}
+
+#a1 {
+    margin: 30px;
+}
+
+.beta {
+    margin: 100px;
+    margin-left: 650px;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.823);
+    size: 100px;
+    margin-top: 400px;
+    width: 300px;
+    padding: 8px;
+    margin-left:-95px ;
+}
+
+.mainbod {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    opacity: 0.2;
+}
+
+.mainbod2 {
+    z-index: -1;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    padding-left: 400px;
+    padding-top: 300px;
+}

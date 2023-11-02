@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    span{
+        position:relative;
+        top:75px;
+        right:29px;
+    }
+    div{
+        border-left:50px solid transparent;
+        border-right:50px solid transparent;
+        border-bottom:100px solid black;
+        width: 0px;
+        height: 0px;
+        position:relative;
+        animation: triangle 3s 100;
+    }
+        @keyframes triangle{
+        
+            0%{rotate:90deg;top:0px;left:0px;}
+            25%{rotate:180deg;top:0px; left:300px;}
+            50%{rotate:270deg;top:300px; left:300px;}
+            75%{rotate:360deg;top:300px;left:0px;}
+            100%{rotate:450deg;top:0px; left:0px;}
+        }
+    
+    </style>
+</head>
+<body>
+    <div style="color: pink; margin-top: 100px;" >
+    <span>Triangle</span>
+    </div>
+</body>
+</html>
